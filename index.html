@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<title>Dashboard</title>
+</head>
+<body style="background-color:rgb(241,248,251);">
+    <div class="big-block">
+    <div class="left-block ">
+        <div class="block-name mobil-menu">
+            <img src="1.png" alt="" class="first-img">
+            <p class="txt-name">Dashboard</p>
+        </div>
+
+
+        <div class="offcanvas offcanvas-start" id="demo">
+          <div class="offcanvas-header">
+          
+            <div class="block-name">
+              <img src="1.png" alt="" class="first-img">
+              <p class="txt-name">Dashboard</p>
+          </div>
+            <div class="menu">
+              <div class="dropdown dropend">
+                  <button type="button" class="btn" data-bs-toggle="" style="display:flex; border-radius: 10px;">
+                    <img src="4.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Dashboard</p><img src="2.png" alt="" class="img-toggle1">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Normal</a></li>
+                    <li><a class="dropdown-item active" href="#">Active</a></li>
+                    <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown dropend">
+                  <button type="button" class="btn" data-bs-toggle="dropdown" style="display:flex; border-radius: 10px;">
+                    <img src="4.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Product</p><img src="Vector.png" alt="" class="img-toggle2">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Normal</a></li>
+                    <li><a class="dropdown-item active" href="#">Active</a></li>
+                    <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown dropend">
+                  <button type="button" class="btn" data-bs-toggle="dropdown" style="background-color:#5932EA; display:flex; border-radius: 10px;">
+                    <img src="3.png" alt="" class="img-pht"><p class="txt-menu">Dropend</p><img src="2.png" alt="" class="img-toggle3">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Normal</a></li>
+                    <li><a class="dropdown-item active" href="#">Active</a></li>
+                    <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown dropend">
+                  <button type="button" class="btn" data-bs-toggle="dropdown" style=" display:flex; border-radius: 10px;">
+                    <img src="5.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Income</p><img src="Vector.png" alt="" class="img-toggle4">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Normal</a></li>
+                    <li><a class="dropdown-item active" href="#">Active</a></li>
+                    <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown dropend">
+                  <button type="button" class="btn" data-bs-toggle="dropdown" style="display:flex; border-radius: 10px;">
+                    <img src="6.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Promote</p><img src="Vector.png" alt="" class="img-toggle3">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Normal</a></li>
+                    <li><a class="dropdown-item active" href="#">Active</a></li>
+                    <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown dropend">
+                  <button type="button" class="btn" data-bs-toggle="dropdown" style="display:flex; border-radius: 10px;">
+                    <img src="7.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Help</p><img src="Vector.png" alt="" class="img-toggle6">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Normal</a></li>
+                    <li><a class="dropdown-item active" href="#">Active</a></li>
+                    <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                  </ul>
+                </div>
+          </div>
+          <div class="prof">
+            <img src="8.png" alt="" class="prof-img">
+            <p class="name">Evano</p>
+            <p class="surname">Project Manager</p>
+        </div>
+        
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+        </div>
+        <div class="container-fluid mt-3 mobil-block" >
+          <button class="btn btnn" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            <img src="filtr.png" alt="" class="filtr-img">
+          </button>
+        </div>
+
+
+        <div class="menu mobil-menu">
+            <div class="dropdown dropend">
+                <button type="button" class="btn" data-bs-toggle="" style="display:flex; border-radius: 10px;">
+                  <img src="4.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Dashboard</p><img src="2.png" alt="" class="img-toggle1">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item active" href="#">Active</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                </ul>
+              </div>
+              <div class="dropdown dropend">
+                <button type="button" class="btn" data-bs-toggle="dropdown" style="display:flex; border-radius: 10px;">
+                  <img src="4.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Product</p><img src="Vector.png" alt="" class="img-toggle2">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item active" href="#">Active</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                </ul>
+              </div>
+              <div class="dropdown dropend">
+                <button type="button" class="btn" data-bs-toggle="dropdown" style="background-color:#5932EA; display:flex; border-radius: 10px;">
+                  <img src="3.png" alt="" class="img-pht"><p class="txt-menu">Dropend</p><img src="2.png" alt="" class="img-toggle3">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item active" href="#">Active</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                </ul>
+              </div>
+              <div class="dropdown dropend">
+                <button type="button" class="btn" data-bs-toggle="dropdown" style=" display:flex; border-radius: 10px;">
+                  <img src="5.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Income</p><img src="Vector.png" alt="" class="img-toggle4">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item active" href="#">Active</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                </ul>
+              </div>
+              <div class="dropdown dropend">
+                <button type="button" class="btn" data-bs-toggle="dropdown" style="display:flex; border-radius: 10px;">
+                  <img src="6.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Promote</p><img src="Vector.png" alt="" class="img-toggle3">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item active" href="#">Active</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                </ul>
+              </div>
+              <div class="dropdown dropend">
+                <button type="button" class="btn" data-bs-toggle="dropdown" style="display:flex; border-radius: 10px;">
+                  <img src="7.png" alt="" class="img-pht"><p class="txt-menu" style="color: #9197B3;">Help</p><img src="Vector.png" alt="" class="img-toggle6">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Normal</a></li>
+                  <li><a class="dropdown-item active" href="#">Active</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+                </ul>
+              </div>
+        </div>
+        
+
+
+
+
+        <div class="prof mobil-menu">
+            <img src="8.png" alt="" class="prof-img">
+            <p class="name">Evano</p>
+            <p class="surname">Project Manager</p>
+        </div>
+    </div>
+    <div class="second-block">
+        <div style="display: block;">
+        <p class="hello">Hello Evano 👋🏼</p>
+    </div>
+    <div class="two-block">
+        <p class="posite">All Customers</p>
+        <div class="search">
+        <p class="posite-two">Active Members</p><input type="search" class="input-search" placeholder="🔍Search">
+        </div>
+        <div style="display: block">
+        <div class="filtr-name">
+            <p class="xt-filtr ">Customer Name</p>
+            <p class="xt-filtr ">Company</p>
+            <p class="xt-filtr ">Phone Number</p>
+            <p class="xt-filtr ">Email</p>
+            <p class="xt-filtr ">Country</p>
+            <p class="xt-filtr ">Status</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr1 xt-name">Jane Cooper</p>
+            <p class="xt-filtr1 xt-firm">Microsoft</p>
+            <p class="xt-filtr1 xt-number">(225) 555-0118</p>
+            <p class="xt-filtr1 xt-email">jane@microsoft.com</p>
+            <p class="xt-filtr1 xt-countri">United States</p>
+            <p class="xt-filtr1 xt-status status-active">Active</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr2 xt-name">Floyd Miles</p>
+            <p class="xt-filtr2 xt-firm">Yahoo</p>
+            <p class="xt-filtr2 xt-number">(205) 555-0100</p>
+            <p class="xt-filtr2 xt-email">floyd@yahoo.com</p>
+            <p class="xt-filtr2 xt-countri">Kiribati</p>
+            <p class="xt-filtr2 xt-status status-inactive">Inactive</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr3 xt-name">Ronald Richards</p>
+            <p class="xt-filtr3 xt-firm">Adobe</p>
+            <p class="xt-filtr3 xt-number">(302) 555-0107</p>
+            <p class="xt-filtr3 xt-email">ronald@adobe.com</p>
+            <p class="xt-filtr3 xt-countri">Israel</p>
+            <p class="xt-filtr3 xt-status status-inactive">Inactive</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr4 xt-name">Marvin McKinney</p>
+            <p class="xt-filtr4 xt-firm">Tesla</p>
+            <p class="xt-filtr4 xt-number">(252) 555-0126</p>
+            <p class="xt-filtr4 xt-email">marvin@tesla.com</p>
+            <p class="xt-filtr4 xt-countri">Iran</p>
+            <p class="xt-filtr4 xt-status status-active">Active</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr5 xt-name">Jerome Bell</p>
+            <p class="xt-filtr5 xt-firm">Google</p>
+            <p class="xt-filtr5 xt-number">(629) 555-0129</p>
+            <p class="xt-filtr5 xt-email">jerome@google.com</p>
+            <p class="xt-filtr5 xt-countri">Réunion</p>
+            <p class="xt-filtr5 xt-status status-active">Active</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr6 xt-name">Kathryn Murphy</p>
+            <p class="xt-filtr6 xt-firm">Microsoft</p>
+            <p class="xt-filtr6 xt-number">(406) 555-0120</p>
+            <p class="xt-filtr6 xt-email">jerome@google.com</p>
+            <p class="xt-filtr6 xt-countri">Réunion</p>
+            <p class="xt-filtr6 xt-status status-active">Active</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr7 xt-name">Jacob Jones</p>
+            <p class="xt-filtr7 xt-firm">Yahoo</p>
+            <p class="xt-filtr7 xt-number">(208) 555-0112</p>
+            <p class="xt-filtr7 xt-email">jacob@yahoo.com</p>
+            <p class="xt-filtr7 xt-countri">Brazil</p>
+            <p class="xt-filtr7 xt-status status-active">Active</p>
+
+        </div>
+        <div class="filtr-name">
+            <p class="xt-filtr8 xt-name">Kristin Watson</p>
+            <p class="xt-filtr8 xt-firm">Facebook</p>
+            <p class="xt-filtr8 xt-number">(704) 555-0127</p>
+            <p class="xt-filtr8 xt-email">kristin@facebook.com</p>
+            <p class="xt-filtr8 xt-countri">Åland Islands</p>
+            <p class="xt-filtr8 xt-status status-inactive">Inactive</p>
+
+        </div>
+        </div>
+        <div class="last-block">
+            <p class="last-txt">Showing data 1 to 8 of  256K entries</p>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">‹</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                <li class="page-item"><a class="page-link" href="#">40</a></li>
+                <li class="page-item"><a class="page-link" href="#">›</a></li>
+              </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
